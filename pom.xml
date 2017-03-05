@@ -22,7 +22,7 @@
           <manifest>
             <addClasspath>true</addClasspath>
             <classpathPrefix>lib/</classpathPrefix>
-            <mainClass>avaaja.exe.Main</mainClass>
+            <mainClass>com.tomi.avaaja.exe.Main</mainClass>
           </manifest>
         </archive>
       </configuration>
@@ -43,7 +43,7 @@
           </descriptorRefs>
           <archive>
             <manifest>
-              <mainClass>avaaja.exe.Main</mainClass>
+              <mainClass>com.tomi.avaaja.exe.Main</mainClass>
             </manifest>
           </archive>
         </configuration>
