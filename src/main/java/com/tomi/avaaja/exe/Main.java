@@ -53,6 +53,7 @@ public class Main extends NanoHTTPD {
             try {
                 try {
                     Desktop.getDesktop().browse(new URI(params.get("url")));
+                 
                 } catch (URISyntaxException ex) {
                     Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
                 }
